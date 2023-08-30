@@ -3,7 +3,7 @@ import { AiFillFilePdf } from "react-icons/ai";
 
 const Cursos = () => {
   return (
-    <section className="cursos__container">
+    <section id="cursos" className="cursos__container">
       <h2>Cursos</h2>
 
       <div>

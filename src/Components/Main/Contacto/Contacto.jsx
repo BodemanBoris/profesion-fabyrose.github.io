@@ -50,6 +50,7 @@ const Contacto = () => {
               rows="5"
               placeholder="Ingresa tus comentarios"
             ></textarea>
+            <input type="hidden" name="_template" value="table"></input>
             <input type="hidden" name="_captcha" value="false"></input>
             <p className="text__alert">
               Los campos marcados con(*) son obligatorios
