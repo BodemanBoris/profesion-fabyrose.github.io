@@ -1,7 +1,38 @@
 .cursos__container {
   width: 380px;
 }
+.cards__container {
+  display: flex;
+  gap: 1rem;
+  position: relative;
+  margin-bottom: 3rem;
+}
+.arrow__btn {
+  border: 2px solid var(--colorPrincipal);
+  font-size: 2rem;
+  padding: 0.4rem 0.4rem;
+  font-weight: bold;
+  background-color: var(--colorClaro);
+  position: absolute;
+  top: 300px;
+}
 
+.arrow__btn:first-child {
+  left: -5px;
+}
+
+.arrow__btn:nth-child(2) {
+  right: 0;
+}
+
+.arrow__btn:hover {
+  background-color: var(--colorPrincipal);
+  color: var(--colorClaro);
+  border: 2px solid var(--colorPrincipal);
+}
+.arrow__btn:active {
+  border: 2px solid var(--colorPrincipal);
+}
 .clases__type {
   display: flex;
   justify-content: center;
@@ -23,7 +54,7 @@
   color: var(--colorPrincipal);
 }
 .clases__type img {
-  width: 50%;
+  width: 80%;
 }
 
 @media (min-width: 768px) {

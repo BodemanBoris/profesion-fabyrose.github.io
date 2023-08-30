@@ -1,0 +1,51 @@
+.curso__mark {
+  margin: 0 auto;
+  min-width: 370px;
+  width: 370px;
+  border: 2px solid var(--colorGrisClaro);
+  border-radius: 2rem;
+  padding: 1rem;
+  box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.55);
+  -webkit-box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.55);
+  -moz-box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.55);
+}
+.curso__level {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+.level_requirement {
+  background-color: var(--colorGris);
+  padding: 0.3rem 0.7rem;
+  border-radius: 1rem;
+  color: var(--colorBlanco);
+}
+.spec {
+  font-weight: bold;
+  color: var(--colorNegro);
+}
+.level__nivel {
+  background-color: var(--colorClaro);
+  padding: 0.3rem 0.7rem;
+  border-radius: 1rem;
+  color: var(--colorPrincipal);
+}
+.curso__texto {
+  padding: 1.2rem;
+}
+.curso__info-detalle {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.btn__curso {
+  background-color: var(--colorClaro);
+  border: 2px solid var(--colorClaro);
+  transition: all 0.3s;
+  color: var(--colorPrincipal);
+}
+.btn__curso:hover {
+  border: 2px solid var(--colorClaro);
+  background-color: var(--colorPrincipal);
+  color: var(--colorOscuro);
+}
