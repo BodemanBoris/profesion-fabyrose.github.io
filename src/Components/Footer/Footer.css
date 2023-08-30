@@ -16,4 +16,10 @@
   border: 2px solid var(--colorOscuro);
   margin: 1rem;
   border-radius: 2rem;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+.footer__container a:hover {
+  background-color: var(--colorBlanco);
+  color: var(--colorOscuro);
 }

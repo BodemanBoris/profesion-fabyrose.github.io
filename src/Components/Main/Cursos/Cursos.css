@@ -15,6 +15,9 @@
   justify-content: center;
   align-items: center;
 }
+.class__content p {
+  padding: 1.2rem 0;
+}
 .pdf__icon {
   font-size: 3rem;
   color: var(--colorPrincipal);

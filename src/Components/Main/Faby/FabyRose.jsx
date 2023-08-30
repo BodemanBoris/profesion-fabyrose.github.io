@@ -1,4 +1,5 @@
 import "./FabyRose.css";
+import Comentarios from "../Comentarios/Comentarios";
 
 const FabyRose = () => {
   return (
@@ -44,6 +45,12 @@ const FabyRose = () => {
             <p className="info__desc">Cursos disponibles</p>
           </div>
         </div>
+      </section>
+      <h3>Testimonios</h3>
+      <section className="testimonios">
+        <Comentarios></Comentarios>
+        <Comentarios></Comentarios>
+        <Comentarios></Comentarios>
       </section>
     </>
   );

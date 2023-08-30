@@ -62,17 +62,29 @@ const Contacto = () => {
           <div className="contact__info-container">
             <p>Zàrate, Buenos aires - Argentina</p>
             <p>fabyrose@fabyrose.com</p>
-            <p>+5493487666666</p>
+            <p>+5493487524500</p>
           </div>
           <div className="socialmedia__container">
             <div>
-              <a target="_blank" rel="noreferrer" href="">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.facebook.com/roses1991/"
+              >
                 <AiFillFacebook className="icon"></AiFillFacebook>
               </a>
-              <a target="_blank" rel="noreferrer" href="">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/in/faby-rose-232074280/"
+              >
                 <AiFillLinkedin className="icon"></AiFillLinkedin>
               </a>
-              <a target="_blank" rel="noreferrer" href="">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.instagram.com/fabyrose_/?hl=es-la"
+              >
                 <AiFillInstagram className="icon"></AiFillInstagram>
               </a>
               <p className="text__blanco">
