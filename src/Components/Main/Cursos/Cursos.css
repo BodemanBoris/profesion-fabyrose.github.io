@@ -70,3 +70,9 @@
     width: 65%;
   }
 }
+
+@media (min-width: 950px) {
+  .cursos__container {
+    width: 950px;
+  }
+}

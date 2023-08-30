@@ -27,7 +27,7 @@ const NavMenu = () => {
           </a>
         </li>
         <li className="list__item">
-          <a className="link__item" href="#">
+          <a className="link__item" href="#cursos">
             Cursos
           </a>
         </li>
