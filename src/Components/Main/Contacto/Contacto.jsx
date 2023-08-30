@@ -11,7 +11,10 @@ const Contacto = () => {
       <h2>Contacto</h2>
       <section className="contacto__flex">
         <div className="contact__form">
-          <form action="">
+          <form
+            action="https://formsubmit.co/borisbodemand@hotmail.com"
+            method="POST"
+          >
             <label htmlFor="nombre">Nombre completo*</label>
             <input
               name="nombre"
@@ -47,7 +50,7 @@ const Contacto = () => {
               rows="5"
               placeholder="Ingresa tus comentarios"
             ></textarea>
-
+            <input type="hidden" name="_captcha" value="false"></input>
             <p className="text__alert">
               Los campos marcados con(*) son obligatorios
             </p>

@@ -29,6 +29,20 @@ input,
 .enviar {
   width: 100px;
   margin: 1.5rem;
+  background-color: var(--colorClaro);
+  color: var(--colorPrincipal);
+  font-weight: bold;
+  border-left: 2px solid var(--colorOscuro);
+  border-bottom: 2px solid var(--colorOscuro);
+  border-top: 1px solid var(--colorOscuro);
+  border-right: 1px solid var(--colorOscuro);
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+.enviar:hover {
+  background-color: var(--colorPrincipal);
+  color: var(--colorOscuro);
+  transform: scale(1.05);
 }
 
 .contact__info-container {
