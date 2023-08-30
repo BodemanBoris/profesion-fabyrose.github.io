@@ -1,0 +1,19 @@
+.footer__container {
+  width: 100%;
+  background-color: var(--colorClaro);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 3rem 0 3rem;
+}
+
+.footer__container a {
+  color: var(--colorBlanco);
+  font-size: 1rem;
+  padding: 1.5rem;
+  border: 2px solid var(--colorOscuro);
+  margin: 1rem;
+  border-radius: 2rem;
+}

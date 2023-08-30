@@ -1,0 +1,22 @@
+.whatsappbtn__container {
+  position: fixed;
+  padding: 0.5rem;
+  left: 30px;
+  bottom: 30px;
+  border-radius: 50%;
+  border: 2px solid var(--colorOscuro);
+  background-color: var(--colorClaro);
+  z-index: 250;
+}
+
+.whatsapp__btn {
+  color: var(--colorOscuro);
+  font-size: 3rem;
+}
+
+@media (min-width: 768px) {
+  .whatsappbtn__container {
+    left: 80px;
+    bottom: 50px;
+  }
+}

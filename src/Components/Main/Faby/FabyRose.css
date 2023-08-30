@@ -1,0 +1,50 @@
+.img__faby {
+  width: 45%;
+  float: right;
+  background-color: var(--colorClaro);
+  margin: 0.5rem;
+  border-radius: 60% 25%;
+}
+.faby__img {
+  width: 70%;
+}
+.faby__description {
+  padding: 1rem;
+  line-height: 20px;
+}
+
+.info__container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.info__faby {
+  width: 95%;
+  height: 120px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.info__numero {
+  font-size: var(--h1);
+  padding: 1rem;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .img__faby {
+    width: 35%;
+  }
+  .info__container {
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+}

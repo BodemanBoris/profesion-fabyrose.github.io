@@ -1,0 +1,16 @@
+.creador__container {
+  background-color: var(--colorNegro);
+  display: flex;
+  justify-content: center;
+
+  gap: 1.5rem;
+  padding: 1.1rem;
+  border-radius: 3rem 0 3rem 0;
+}
+.creador__container p {
+  color: var(--colorBlanco);
+}
+.creador__icon {
+  color: var(--colorBlanco);
+  font-size: 1.5rem;
+}

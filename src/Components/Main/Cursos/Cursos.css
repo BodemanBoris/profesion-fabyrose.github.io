@@ -1,0 +1,38 @@
+.cursos__container {
+  width: 380px;
+}
+
+.clases__type {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.class__content {
+  width: 33%;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pdf__icon {
+  font-size: 3rem;
+  color: var(--colorPrincipal);
+}
+.clases__type img {
+  width: 50%;
+}
+
+@media (min-width: 768px) {
+  .cursos__container {
+    width: 768px;
+  }
+
+  .class__content {
+    height: 200px;
+  }
+
+  .clases__type img {
+    width: 65%;
+  }
+}

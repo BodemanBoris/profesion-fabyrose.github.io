@@ -1,0 +1,15 @@
+.main__container {
+  width: 380px;
+}
+
+@media (min-width: 768px) {
+  .main__container {
+    width: 768px;
+  }
+}
+
+@media (min-width: 950px) {
+  .main__container {
+    width: 950px;
+  }
+}

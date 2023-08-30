@@ -1,0 +1,151 @@
+:root {
+  /* COLORS */
+  --colorHsl: 277;
+  --colorPrincipal: hsl(var(--colorHsl), 100%, 50%);
+  --colorOscuro: hsl(var(--colorHsl), 100%, 20%);
+  --colorClaro: hsl(var(--colorHsl), 100%, 90%);
+  --colorBrillante: hsl(var(--colorHsl), 50%, 50%);
+  --colorBlanco: hsl(var(--colorHsl), 100%, 100%);
+  --colorNegro: hsl(var(--colorHsl), 0%, 0%);
+  --colorGris: hsl(var(--colorHsl), 0%, 30%);
+  --colorGrisClaro: hsl(var(--colorHsl), 0%, 80%);
+  --colorBg: hsl(var(--colorHsl), 0%, 10%);
+
+  /* COLORS SECOND */
+  --colorHslSecond: 200;
+  --colorSecundario: hsl(var(--colorHslSecond), 100%, 50%);
+  --colorOscuroSecundario: hsl(var(--colorHslSecond), 100%, 20%);
+  --colorClaroSecundario: hsl(var(--colorHslSecond), 100%, 90%);
+  --colorBrillanteSecundario: hsl(var(--colorHslSecond), 50%, 50%);
+
+  /* Size */
+  --h1: 48px;
+  --h2: 32px;
+  --h3: 25px;
+  --h4: 20px;
+
+  --pequeña: 10px;
+
+  /* FONT FAMILY */
+  --googleFont: "Pacifico", cursive;
+  --titulos: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  --textos: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  /* FONT WIGTH */
+  --grueso: "bold";
+  --fino: "300";
+}
+
+/* ******** GENERALES ******** */
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+}
+#root {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  scroll-behavior: smooth;
+  margin: 0 auto;
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+img {
+  width: 100%;
+}
+p {
+  line-height: 22px;
+  color: var(--colorGris);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+  margin: 1rem auto;
+  font-family: var(--googleFonts);
+  color: var(--colorBrillante);
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+section {
+  margin: 5rem auto;
+}
+
+.texto__largo {
+  text-align: center;
+  max-width: 75ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sub__title {
+  background-color: var(--colorClaro);
+  padding: 1.2rem;
+  color: var(--colorBlanco);
+}
+
+/* ******** GENERALES ******** */
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    width: 768px;
+  }
+}
+@media (min-width: 950px) {
+  body {
+    width: 950px;
+  }
+}

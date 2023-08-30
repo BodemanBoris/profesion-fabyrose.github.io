@@ -1,0 +1,89 @@
+label {
+  display: block;
+  text-align: start;
+  padding: 0.5rem;
+  padding-top: 1.5rem;
+}
+.text__alert {
+  font-size: 0.8rem;
+  color: grey;
+}
+
+input,
+.imput__textarea {
+  border-radius: 1rem;
+  border-left: 1.5px solid var(--colorClaro);
+  border-top: 1.5px solid var(--colorClaro);
+  border-right: 4px solid var(--colorClaro);
+  border-bottom: 4px solid var(--colorClaro);
+  width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 0.5rem;
+  font-size: var(--h4);
+}
+.imput__textarea {
+  resize: none;
+  padding: 0.5rem;
+}
+.enviar {
+  width: 100px;
+  margin: 1.5rem;
+}
+
+.contact__info-container {
+  margin: 2rem;
+  border-top: 4px solid var(--colorPrincipal);
+  border-right: 4px solid var(--colorPrincipal);
+  border-bottom: 2px solid var(--colorClaro);
+  border-left: 2px solid var(--colorClaro);
+  padding: 2rem;
+  border-radius: 0 3rem 0 3rem;
+}
+.contact__info-container p {
+  padding: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.socialmedia__container {
+  background-color: var(--colorClaro);
+  margin: 2rem;
+  border-top: 2px solid var(--colorClaro);
+  border-right: 2px solid var(--colorClaro);
+  border-bottom: 4px solid var(--colorPrincipal);
+  border-left: 4px solid var(--colorPrincipal);
+  padding: 2rem;
+  border-radius: 3rem 0 3rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.icon {
+  font-size: 4rem;
+  color: var(--colorBlanco);
+}
+.text__blanco {
+  color: var(--colorBlanco);
+  font-size: 0.9rem;
+}
+
+@media (min-width: 768px) {
+  .icon {
+    margin: 0 2rem;
+  }
+}
+@media (min-width: 950px) {
+  .contacto__flex {
+    display: flex;
+  }
+  .contact__form {
+    width: 65%;
+  }
+  .icon {
+    margin: 0 0.5rem;
+  }
+
+  .contact__info-container {
+    margin-top: 2rem;
+  }
+}

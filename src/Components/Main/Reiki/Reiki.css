@@ -1,0 +1,33 @@
+.reiki__text {
+  padding: 0.5rem;
+  line-height: 20px;
+}
+.img__japon {
+  width: 75%;
+}
+.text__color {
+  color: var(--colorPrincipal);
+}
+
+.items__reiki {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.items__reiki img {
+  width: 75%;
+}
+figcaption {
+  padding: 0.5rem;
+  background-color: var(--colorClaro);
+}
+
+@media (min-width: 768px) {
+  .items__reiki {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .items__reiki img {
+    width: 100%;
+  }
+}
