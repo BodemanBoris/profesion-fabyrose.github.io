@@ -45,6 +45,20 @@
   flex-direction: column;
   gap: 1.2rem;
 }
+.logros__container {
+  margin: 1rem 0;
+}
+
+.red__square {
+  margin: 1rem 0;
+  border: 3px solid red;
+}
+
+.red__alert {
+  padding: 2rem;
+  background-color: red;
+  color: rgb(156, 2, 2);
+}
 
 @media (min-width: 768px) {
   .img__faby {

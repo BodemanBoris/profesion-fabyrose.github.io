@@ -77,36 +77,39 @@ const FabyRose = () => {
           respeto.
         </p>
       </div>
-      <section>
-        <h3 className="sub__title">LOGROS</h3>
-        <div className="info__container">
-          <div className="info__faby">
-            <p className="info__numero">+ 10</p>
-            <p className="info__desc">Años de trayectoria</p>
-          </div>
+      <div className="red__square">
+        <section className="logros__container">
+          <h2 className="red__alert">FALTA DEFINIR</h2>
+          <h3 className="sub__title">LOGROS</h3>
+          <div className="info__container">
+            <div className="info__faby">
+              <p className="info__numero">+ 10</p>
+              <p className="info__desc">Años de trayectoria</p>
+            </div>
 
-          <div className="info__faby">
-            <p className="info__numero">+25</p>
-            <p className="info__desc">Alumnos capcaitados</p>
-          </div>
+            <div className="info__faby">
+              <p className="info__numero">+25</p>
+              <p className="info__desc">Alumnos capcaitados</p>
+            </div>
 
-          <div className="info__faby">
-            <p className="info__numero">10</p>
-            <p className="info__desc">Alumnos capcaitados</p>
-          </div>
+            <div className="info__faby">
+              <p className="info__numero">10</p>
+              <p className="info__desc">Alumnos capcaitados</p>
+            </div>
 
-          <div className="info__faby">
-            <p className="info__numero">6</p>
-            <p className="info__desc">Cursos disponibles</p>
+            <div className="info__faby">
+              <p className="info__numero">6</p>
+              <p className="info__desc">Cursos disponibles</p>
+            </div>
           </div>
-        </div>
-      </section>
-      <h3>Testimonios</h3>
-      <section className="testimonios">
-        <Comentarios></Comentarios>
-        <Comentarios></Comentarios>
-        <Comentarios></Comentarios>
-      </section>
+        </section>
+        <h3>Testimonios</h3>
+        <section className="testimonios">
+          <Comentarios></Comentarios>
+          <Comentarios></Comentarios>
+          <Comentarios></Comentarios>
+        </section>
+      </div>
     </>
   );
 };
