@@ -8,6 +8,10 @@
 .text__color {
   color: var(--colorPrincipal);
 }
+.list__tomark li {
+  list-style-type: disc;
+  text-align: start;
+}
 
 .items__reiki {
   display: grid;
@@ -18,9 +22,21 @@
 .items__reiki img {
   width: 75%;
 }
+figure {
+  display: flex;
+  flex-direction: column;
+}
+
+figure img {
+  flex-grow: 1;
+  margin: 0 auto;
+}
 figcaption {
   padding: 0.5rem;
   background-color: var(--colorClaro);
+}
+.text__tostart {
+  text-align: start;
 }
 
 @media (min-width: 768px) {
@@ -28,6 +44,6 @@ figcaption {
     grid-template-columns: repeat(4, 1fr);
   }
   .items__reiki img {
-    width: 100%;
+    width: 60%;
   }
 }

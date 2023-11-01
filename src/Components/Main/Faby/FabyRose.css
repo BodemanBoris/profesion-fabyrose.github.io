@@ -9,8 +9,13 @@
   width: 70%;
 }
 .faby__description {
-  padding: 1rem;
+  padding: 0.5rem;
   line-height: 20px;
+  text-align: start;
+}
+.purple__text {
+  color: blueviolet;
+  font-weight: 600;
 }
 
 .info__container {

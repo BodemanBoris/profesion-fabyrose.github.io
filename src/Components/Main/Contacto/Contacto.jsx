@@ -60,8 +60,17 @@ const Contacto = () => {
         </div>
         <article className="contact__info">
           <div className="contact__info-container">
+            <p>
+              <small>Ciudad:</small>
+            </p>
             <p>Zàrate, Buenos aires - Argentina</p>
+            <p>
+              <small>Email:</small>
+            </p>
             <p>fabyrose@fabyrose.com</p>
+            <p>
+              <small>Tel:</small>
+            </p>
             <p>+5493487524500</p>
           </div>
           <div className="socialmedia__container">

@@ -2,7 +2,7 @@ header {
   padding-top: 2rem;
   position: relative;
   width: 380px;
-  height: 600px;
+  height: 800px;
 }
 .title__container {
   position: relative;
@@ -28,6 +28,7 @@ header {
   top: 70px;
   left: 45px;
 }
+
 .rose {
   color: var(--colorNegro);
   display: none;
@@ -54,7 +55,8 @@ header {
   border: 5px solid var(--colorClaro);
 }
 
-.text__container h2 {
+.text__title {
+  font-family: var(--titulos);
   margin: 0.5rem;
 }
 

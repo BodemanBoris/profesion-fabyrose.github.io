@@ -16,18 +16,20 @@ const Header = () => {
         />
       </div>
       <div className="text__container">
-        <h2>Maestra Reiki</h2>
+        <h2 className="text__title">
+          Escuela <i>Holística</i> On-line
+        </h2>
         <p className="texto__largo">
-          Profesional dedicada a las artes esotericas. Brindo servicios de
-          curacion, guia espiritual y capacito.
-        </p>
-        <br />
-        <p className="texto__largo">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-          ipsum, neque libero temporibus sapiente mollitia sit.
+          Profesional dedicada a la atención y formación en distintas Terapias
+          Energéticas. Con una memoria ancestral y, al mismo tiempo, formándome
+          para despertar ese don innato que cada alma que viene a la Tierra ya
+          porta. Me ocupo de activar y dar rienda suelta a todos los mensajes
+          que provienen de mis guías. Actualmente, en esta nueva era, se me pide
+          salir y compartir mis conocimientos con todos aquellos que buscan el
+          despertar de la conciencia. Me llamaron Fabiana al nacer. Soy
+          formadora y al mismo tiempo, acompaño tu proceso de transformación
         </p>
       </div>
-      <div></div>
     </header>
   );
 };
