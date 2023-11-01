@@ -9,6 +9,10 @@ const Contacto = () => {
   return (
     <>
       <h2>Contacto</h2>
+      <p className="texto__largo">
+        Estamos aquí para escucharte. No dudes en contactarnos en cualquier
+        momento. Tu opinión es importante para nosotros.
+      </p>
       <section className="contacto__flex">
         <div className="contact__form">
           <form

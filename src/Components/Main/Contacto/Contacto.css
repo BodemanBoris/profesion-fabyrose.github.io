@@ -96,6 +96,7 @@ p small {
 @media (min-width: 950px) {
   .contacto__flex {
     display: flex;
+    margin-top: 0.5rem;
   }
   .contact__form {
     width: 65%;
