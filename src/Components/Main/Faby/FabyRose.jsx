@@ -6,17 +6,17 @@ const FabyRose = () => {
     <>
       <h2>Faby Rose</h2>
       <div className="info__fabyrose">
-        <div className="img__faby">
-          <img className="faby__img" src="/fabyrose.png" alt="" />
-        </div>
         <p className="faby__description">
           <b>¡Hola!</b>, mi nombre es{" "}
           <span className="purple__text">Fabiana Aguilar. </span>
           Aprecio que hayas encontrado este espacio donde podrás explorar una
           amplia gama de oportunidades para tu crecimiento y evolución
           espiritual.
-          <br />
-          <br />
+        </p>
+        <div className="img__faby">
+          <img className="faby__img" src="/fabyrose.png" alt="" />
+        </div>
+        <p className="faby__description">
           Así como las Terapias Alternativas me ayudaron a mí,{" "}
           <b>
             hoy estoy aquí, del otro lado, para ayudar, acompañar y enseñar lo

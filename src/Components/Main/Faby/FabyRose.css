@@ -3,7 +3,7 @@
   float: right;
   background-color: var(--colorClaro);
   margin: 0.5rem;
-  border-radius: 60% 25%;
+  border-radius: 60% 5%;
 }
 .faby__img {
   width: 70%;
