@@ -4,7 +4,7 @@ const NavMenu = () => {
   return (
     <nav className="nav__container">
       <label htmlFor="menu__check" className="menu__label">
-        Menú 📒
+        Menú 📖
       </label>
       <input
         type="checkbox"
@@ -12,13 +12,16 @@ const NavMenu = () => {
         id="menu__check"
         className="menu__check"
       />
+
       <h3>Bienvenidos</h3>
-      <ul className={`ul__container`}>
+
+      <ul className={"ul__container"}>
         <li className="list__item">
           <a className="link__item" href="#reiki">
             Terapia holística
           </a>
         </li>
+
         <li className="list__item">
           <a className="link__item" href="#fabyrose">
             Faby Rose
