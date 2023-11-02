@@ -69,33 +69,33 @@ const Cursos = () => {
             </span>
           </li>
           <h3>Otros cursos</h3>
-          <li>
+          <ol>
             4- <b>Reiki Karuna</b>
             <li>Reiki Karuna - Nivel 1 y 2.</li>
             <li> Reiki Karuna - Maestria</li>
             <li> Reiki Karuna - Nivel avanzado</li>
-          </li>
+          </ol>
           <br />
-          <li>
+          <ol>
             5- <b>Sanacion Angelical</b>
             <li>Snacion Angelical</li>
             <li>Maestria</li>
-          </li>
+          </ol>
           <br />
-          <li>
+          <ol>
             6- <b>Tameana</b>
             <li>Modulo 1, 2, 3, 4, 5, 6, 7</li>
-          </li>
+          </ol>
           <br />
           <li>
             7- <b>Radiestesia y Péndulo Hebreo </b>
           </li>
           <br />
-          <li>
+          <ol>
             8-<b>Registros Akáshicos </b>
             <li>Nivel 1 y 2</li>
             <li> Maestria</li>
-          </li>
+          </ol>
         </ol>
         <p className="text__courses">
           Este listado de cursos proporciona una visión general de las opciones
