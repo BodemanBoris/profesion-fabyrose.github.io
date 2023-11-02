@@ -1,24 +1,22 @@
 import "./NavMenu.css";
 
-/* import React, { useState, useEffect } from "react";
-
-useEffect(() => {
-  function handleResize() {
-    if (window.innerWidth > 768) {
-      setClicked(false);
-    }
-  }
-  window.addEventListener("resize", handleResize);
-  return () => window.removeEventListener("resize", handleResize);
-}, []); */
-
 const NavMenu = () => {
   return (
     <nav className="nav__container">
+      <label htmlFor="menu__check" className="menu__label">
+        Menú 📒
+      </label>
+      <input
+        type="checkbox"
+        name="menu"
+        id="menu__check"
+        className="menu__check"
+      />
+      <h3>Bienvenidos</h3>
       <ul className={`ul__container`}>
         <li className="list__item">
           <a className="link__item" href="#reiki">
-            Reiki
+            Terapia holística
           </a>
         </li>
         <li className="list__item">
