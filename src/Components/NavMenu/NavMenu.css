@@ -116,6 +116,7 @@
     margin: 0;
     background-color: transparent;
     justify-content: center;
+    border: none;
   }
 
   .list__item {

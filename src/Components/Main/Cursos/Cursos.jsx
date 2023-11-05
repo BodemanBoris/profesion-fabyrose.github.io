@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Cursos.css";
 
 const Cursos = () => {
@@ -13,12 +14,15 @@ const Cursos = () => {
         descubrir tu potencial interior y aprender valiosas técnicas de
         sanación.
         <br />
-        <br /> Nuestros cursos se imparten con pasión y compromiso, y están
-        abiertos a todos, sin necesidad de conocimientos previos. Desde la
-        iniciación en Reiki Usui, que abarca desde los fundamentos hasta niveles
-        avanzados, hasta la profunda sabiduría de los Registros Akáshicos y la
-        sanación angelical, encontrarás una amplia gama de opciones para tu
-        desarrollo espiritual.
+        <br />{" "}
+        <b>
+          Nuestros cursos se imparten con pasión y compromiso, y están abiertos
+          a todos, sin necesidad de conocimientos previos. Desde la iniciación
+          en Reiki Usui, que abarca desde los fundamentos hasta niveles
+          avanzados, hasta la profunda sabiduría de los Registros Akáshicos y la
+          sanación angelical, encontrarás una amplia gama de opciones para tu
+          desarrollo espiritual.
+        </b>
         <br />
         <br />
         Descubre cómo puedes equilibrar tu energía, sanar a otros y a ti mismo,
@@ -32,76 +36,52 @@ const Cursos = () => {
         Aquí tienes un listado de cursos basado en el texto proporcionado:
         <h3>Cursos de Reiki Usui:</h3>
         <ol>
-          <li>
-            1- <b>Reiki Usui Nivel 1 y 2</b>:
-            <br />
-            - Incluye teoría y simbología. <br />
-            - Iniciación y sintonización.
-            <br />- Técnicas de imposición de manos en personas, mascotas y
-            plantas.
-            <br />- Enseñanza de Reiki a distancia. <br />
-            <span className="purple__text">
-              No se requiere conocimiento previo.
-            </span>
-          </li>
-          <br />
-          <li>
-            2- <b>Reiki Usui Nivel 3</b>:
-            <br />
-            -Aprendizaje de técnicas avanzadas, como la técnica de la caja o
-            cuaderno Reiki, el circuito microscópico y la Cirugía Psíquica.
-            <br />- Gyoshi-Ho (Reiki con la mirada).
-            <br />
-            <span className="purple__text">
-              Requiere conocimiento previo de los Niveles 1 y 2 para una
-              formación más completa.
-            </span>
-          </li>
-          <br />
-          <li>
-            3- <b>Maestría Reiki Usui</b>:
-            <br />
-            -Completación del entrenamiento para la práctica de Reiki.
-            <br />- Preparación para iniciar a alumnos practicantes y re
-            sintonizar maestros. <br />
-            <span className="purple__text">
-              Se requiere haber completado los Niveles 1 2 y 3.
-            </span>
-          </li>
-          <h3>Otros cursos</h3>
-          <ol>
-            4- <b>Reiki Karuna</b>
-            <li>Reiki Karuna - Nivel 1 y 2.</li>
-            <li> Reiki Karuna - Maestria</li>
-            <li> Reiki Karuna - Nivel avanzado</li>
-          </ol>
-          <br />
-          <ol>
-            5- <b>Sanacion Angelical</b>
-            <li>Snacion Angelical</li>
-            <li>Maestria</li>
-          </ol>
-          <br />
-          <ol>
-            6- <b>Tameana</b>
-            <li>Modulo 1, 2, 3, 4, 5, 6, 7</li>
-          </ol>
-          <br />
-          <li>
-            7- <b>Radiestesia y Péndulo Hebreo </b>
-          </li>
-          <br />
-          <ol>
-            8-<b>Registros Akáshicos </b>
-            <li>Nivel 1 y 2</li>
-            <li> Maestria</li>
-          </ol>
+          1- <b>Reiki Usui</b>
+          <li>Reiki Usui - Nivel 1 y 2.</li>
+          <li> Reiki Usui - Maestria</li>
+          <li> Reiki Usui - Nivel avanzado</li>
+        </ol>
+        <br />
+        <h3>Otros cursos</h3>
+        <ol>
+          2- <b>Reiki Karuna</b>
+          <li>Reiki Karuna - Nivel 1 y 2.</li>
+          <li> Reiki Karuna - Maestria</li>
+          <li> Reiki Karuna - Nivel avanzado</li>
+        </ol>
+        <br />
+        <ol>
+          3- <b>Sanacion Angelical</b>
+          <li>Snacion Angelical</li>
+          <li>Maestria</li>
+        </ol>
+        <br />
+        <ol>
+          4- <b>Tameana</b>
+          <li>Modulo 1, 2, 3, 4, 5, 6, 7</li>
+        </ol>
+        <br />
+        <li>
+          5- <b>Radiestesia y Péndulo Hebreo </b>
+        </li>
+        <br />
+        <ol>
+          6-<b>Registros Akáshicos </b>
+          <li>Nivel 1 y 2</li>
+          <li> Maestria</li>
         </ol>
         <p className="text__courses">
           Este listado de cursos proporciona una visión general de las opciones
           disponibles para aquellos interesados en participar en tus programas
           de formación.
         </p>
+      </div>
+
+      <div className="link__divisor">
+        <p>Click a continuacion para mas detalles de los cursos</p>
+        <Link to="/cursos" className="link__style">
+          QUIERO MAS INFORMACION!
+        </Link>
       </div>
 
       <div>

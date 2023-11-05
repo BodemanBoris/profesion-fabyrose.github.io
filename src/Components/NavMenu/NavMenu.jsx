@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./NavMenu.css";
 
 const NavMenu = () => {
@@ -32,11 +33,15 @@ const NavMenu = () => {
             Cursos
           </a>
         </li>
+
         <li className="list__item">
           <a className="link__item" href="#contacto">
             Contacto
           </a>
         </li>
+        <Link to="/cursos" className="link__style">
+          Conoce nuestros cursos
+        </Link>
       </ul>
     </nav>
   );

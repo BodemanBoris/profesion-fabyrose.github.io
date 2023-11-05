@@ -1,7 +1,7 @@
-import "./Header.css";
+import "./PageCursos.css";
 import ContenidoMain from "./ContenidoMain";
 
-const Header = () => {
+const PageCursos = () => {
   return (
     <header>
       <div className="title__container">
@@ -12,7 +12,7 @@ const Header = () => {
       </div>
       <div className="img__container">
         <img
-          src="https://w0.peakpx.com/wallpaper/458/351/HD-wallpaper-mount-fuji-black-and-white-beautiful-trees-sky-japan-snow-mountains-nature-fuji.jpg"
+          src="https://img.freepik.com/vector-premium/fondo-vacio-blanco-negro-estilo-tatuaje-japones-simple-muy-detallado_969393-781.jpg"
           alt="Bosque japones"
         />
       </div>
@@ -21,4 +21,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default PageCursos;

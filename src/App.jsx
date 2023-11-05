@@ -1,11 +1,7 @@
-import Header from "./Components/Header/Header";
-import Main from "./Components/Main/Main";
-import Footer from "./Components/Footer/Footer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
-//import BtnMenu from "./Components/BtnMenu/BtnMenu";
-import NavMenu from "./Components/NavMenu/NavMenu";
-import Creador from "./Components/Creador/Creador";
-import WhatsAppBtn from "./Components/WhatsAppBtn/WhatsAppBtn";
+import MainPage from "./Pages/MainPage";
+import Cursos from "./Pages/Cursos";
 
 function App() {
   /* const handlerMenu = () => {
@@ -13,15 +9,12 @@ function App() {
   }; */
 
   return (
-    <>
-      <Header></Header>
-      {/* <BtnMenu handlerMenu={handlerMenu} contenido={"💻"} /> */}
-      <NavMenu></NavMenu>
-      <Main></Main>
-      <WhatsAppBtn></WhatsAppBtn>
-      <Footer></Footer>
-      <Creador></Creador>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        <Route path="/cursos" element={<Cursos />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
