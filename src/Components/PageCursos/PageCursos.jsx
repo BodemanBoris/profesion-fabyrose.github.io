@@ -1,5 +1,5 @@
 import "./PageCursos.css";
-import ContenidoMain from "./ContenidoMain";
+import ContenidoCurso from "./ContenidoCurso";
 
 const PageCursos = () => {
   return (
@@ -16,7 +16,7 @@ const PageCursos = () => {
           alt="Bosque japones"
         />
       </div>
-      <ContenidoMain />
+      <ContenidoCurso />
     </header>
   );
 };

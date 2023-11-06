@@ -50,6 +50,7 @@ header {
   font-weight: bold;
   border-radius: 3rem 0 3rem 0;
   right: 10px;
+  bottom: 30px;
   padding: 1rem;
   border: 5px solid var(--colorClaro);
 }
@@ -76,7 +77,7 @@ header {
   }
 
   .text__container {
-    bottom: 50px;
+    bottom: 0px;
   }
   .text__container p {
     padding: 0.2rem;
@@ -85,7 +86,7 @@ header {
 @media (min-width: 950px) {
   header {
     width: 950px;
-    height: 800px;
+    height: 900px;
   }
 
   .sub__title {
@@ -93,7 +94,7 @@ header {
   }
 
   .text__container {
-    bottom: 50px;
+    bottom: 10px;
   }
   .text__container p {
     padding: 1rem;

@@ -1,11 +1,7 @@
+import "./Header.css";
 const ContenidoMain = () => {
   return (
-    <div
-      className="text__container"
-      style={{
-        bottom: "20px",
-      }}
-    >
+    <div className="text__container">
       <h2 className="text__title">
         Escuela <i>Holística</i>
         <br /> On-line

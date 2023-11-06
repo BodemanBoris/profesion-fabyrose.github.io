@@ -1,6 +1,6 @@
-const ContenidoMain = () => {
+const ContenidoCurso = () => {
   return (
-    <div className="text__container">
+    <div className="textcurso__container">
       <h2 className="text__title">Cursos OnDemand</h2>
       <p className="texto__largo" id="text__initial">
         ¡Explora nuestro abanico de cursos y encuentra el camino que resonará
@@ -13,4 +13,4 @@ const ContenidoMain = () => {
   );
 };
 
-export default ContenidoMain;
+export default ContenidoCurso;
