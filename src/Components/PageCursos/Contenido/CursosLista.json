@@ -1,0 +1,54 @@
+{
+  "cursos": [
+    {
+      "id": 1,
+      "tema": "Reiki Usui",
+      "nombre": "Reiki Usui Nivel 1 y 2",
+      "contenido": "Enseño los dos niveles juntos, ya que el primer Nivel es la teoría de esta técnica o Arte Milenaria, y en el segundo nivel se enseña  la simbología, se hace una sintonización e iniciación a estos Niveles , y se aprende a dar Reiki con imposición de manos sobre otras personas, mascotas, plantas. Además se enseña a dar Reiki a distancia.",
+      "conocimientoPrevio": false,
+      "urlImagen": "https://d22fxaf9t8d39k.cloudfront.net/c8d6d91b36356ad404dbf4cf393f7002409e2b9f936e4e3bf2746be06d08727f186237.jpg",
+      "altImagen": "Imagen del midudev este"
+    },
+    {
+      "id": 2,
+      "tema": "Reiki Usui",
+      "nombre": "Reiki Usui Nivel 3",
+      "contenido": "En este tercer nivel se aprenden unas Técnicas muy  potentes, como por ejemplo: La técnica de la caja o cuaderno Reiki: seguramente la aprendiste en el 2do nivel, solo que ahora aprenderás como construir tú propia mándala Reiki con cuarzos. El circuito microscópico: esta técnica consiste en la creación de un circuito energético cerrado que permita incrementar el flujo de energía en el cuerpo. Cirugía Psíquica También se la denomina “Cirugía Astral” y es una técnica de sanación con energía ancestral, que ya utilizaban algunas antiguas civilizaciones como los Atlantes. Gyoshi- Ho: también conocido como Reiki con la mirada, puesto que consiste en canalizar la energía universal durante un tratamiento de Reiki utilizando únicamente la mirada como canal.",
+      "conocimientoPrevio": true,
+      "cursoNecesario": "Reiki Usui Nivel 1 y 2",
+      "urlImagen": "https://d22fxaf9t8d39k.cloudfront.net/c8d6d91b36356ad404dbf4cf393f7002409e2b9f936e4e3bf2746be06d08727f186237.jpg",
+      "altImagen": "Imagen del midudev este"
+    },
+    {
+      "id": 3,
+      "tema": "Reiki Usui",
+      "nombre": "Reiki Usui Maestria",
+      "contenido": "La maestría del sistema Usui está destinada a completar el entrenamiento para la práctica de Reiki, el trabajo personal y la preparación para iniciar a alumnos practicantes y a re sintonizar maestros. Necesita el conocimiento, de los Niveles anteriores..",
+      "conocimientoPrevio": true,
+      "cursoNecesario": "Reiki Usui Nivel 3",
+      "urlImagen": "https://d22fxaf9t8d39k.cloudfront.net/c8d6d91b36356ad404dbf4cf393f7002409e2b9f936e4e3bf2746be06d08727f186237.jpg",
+      "altImagen": "Imagen del midudev este"
+    },
+
+    {
+      "id": 4,
+      "tema": "Reiki Karuna",
+      "nombre": "Reiki Karuna Nivel 1 y 2",
+      "contenido": "Enseño los dos niveles juntos, ya que el primer Nivel es la teoría de esta técnica o Arte Milenaria, y en el segundo nivel se enseña  la simbología, se hace una sintonización e iniciación a estos Niveles , y se aprende a dar Reiki con imposición de manos sobre otras personas, mascotas, plantas. Además se enseña a dar Reiki a distancia.",
+      "conocimientoPrevio": true,
+      "cursoNecesario": "Reiki Usui Maestria",
+      "urlImagen": "https://d22fxaf9t8d39k.cloudfront.net/c8d6d91b36356ad404dbf4cf393f7002409e2b9f936e4e3bf2746be06d08727f186237.jpg",
+      "altImagen": "Imagen del midudev este"
+    },
+    {
+      "id": 5,
+      "tema": "Reiki Karuna",
+      "nombre": "Reiki Karuna Nivel 3 y Maestria",
+      "contenido": "En este tercer nivel se aprenden unas Técnicas muy  potentes, como por ejemplo: La técnica de la caja o cuaderno Reiki: seguramente la aprendiste en el 2do nivel, solo que ahora aprenderás como construir tú propia mándala Reiki con cuarzos. El circuito microscópico: esta técnica consiste en la creación de un circuito energético cerrado que permita incrementar el flujo de energía en el cuerpo. Cirugía Psíquica También se la denomina “Cirugía Astral” y es una técnica de sanación con energía ancestral, que ya utilizaban algunas antiguas civilizaciones como los Atlantes. Gyoshi- Ho: también conocido como Reiki con la mirada, puesto que consiste en canalizar la energía universal durante un tratamiento de Reiki utilizando únicamente la mirada como canal.",
+      "conocimientoPrevio": true,
+      "cursoNecesario": "Reiki Karuna nivel 1 y 2",
+      "urlImagen": "https://d22fxaf9t8d39k.cloudfront.net/c8d6d91b36356ad404dbf4cf393f7002409e2b9f936e4e3bf2746be06d08727f186237.jpg",
+      "altImagen": "Imagen del midudev este"
+    }
+  ]
+}

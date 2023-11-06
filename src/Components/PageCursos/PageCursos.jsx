@@ -3,7 +3,7 @@ import ContenidoMain from "./ContenidoMain";
 
 const PageCursos = () => {
   return (
-    <header>
+    <header className="page__cursos">
       <div className="title__container">
         <h1 className="title__uno">
           FABY <span className="rose">ROSE</span>
