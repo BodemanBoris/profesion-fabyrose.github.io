@@ -1,0 +1,10 @@
+.textContainer{
+  margin-top: 2rem;
+}
+.iniciarSesion{
+  font: bold;
+  color: blue;
+}
+.iniciarSesion:hover{
+  cursor: pointer;
+}
