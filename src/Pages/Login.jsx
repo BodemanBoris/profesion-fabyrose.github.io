@@ -12,7 +12,7 @@ const Login = () => {
   }
   
   return (
-    <div>
+    <main>
       <h2>Bienvenido a tu espacio</h2>
       {formToRender === true ? (
         <div>
@@ -32,7 +32,7 @@ const Login = () => {
         Home 🏠
       </Link>
       </li>
-    </div>
+    </main>
   )
 }
 

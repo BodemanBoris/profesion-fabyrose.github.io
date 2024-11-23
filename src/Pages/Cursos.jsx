@@ -8,7 +8,7 @@ import Contacto from "../Components/Main/Contacto/Contacto";
 
 const Cursos = () => {
   return (
-    <>
+    <main>
       <PageCursos />
       <li className="item">
 
@@ -27,7 +27,7 @@ const Cursos = () => {
       <WhatsAppBtn></WhatsAppBtn>
       <Footer></Footer>
       <Creador></Creador>
-    </>
+    </main>
   );
 };
 

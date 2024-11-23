@@ -8,14 +8,14 @@ import WhatsAppBtn from "../Components/WhatsAppBtn/WhatsAppBtn";
 
 function MainPage() {
   return (
-    <>
+    <main>
       <Header></Header>
       <NavMenu></NavMenu>
       <Main></Main>
       <WhatsAppBtn></WhatsAppBtn>
       <Footer></Footer>
       <Creador></Creador>
-    </>
+    </main>
   );
 }
 
