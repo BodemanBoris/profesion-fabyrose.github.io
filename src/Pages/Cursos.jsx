@@ -10,13 +10,19 @@ const Cursos = () => {
   return (
     <>
       <PageCursos />
-      <Link to="/" className="link__style">
-        Pagina principal
+      <li className="item">
+
+      <Link to="/" className="link__item">
+        Home 🏠
       </Link>
+      </li>
       <Contenido />
-      <Link to="/" className="link__style">
-        Pagina principal
+      <li className="item">
+
+      <Link to="/" className="link__item">
+        Home 🏠
       </Link>
+      </li>
       <Contacto></Contacto>
       <WhatsAppBtn></WhatsAppBtn>
       <Footer></Footer>

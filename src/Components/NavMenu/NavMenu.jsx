@@ -39,9 +39,19 @@ const NavMenu = () => {
             Contacto
           </a>
         </li>
-        <Link to="/cursos" className="link__style">
-          Conoce nuestros cursos
+        <li className="list_item">
+
+        <Link to="/cursos" className="link__item">
+          Nuestros cursos
         </Link>
+        </li>
+
+        <li className="list_item">
+
+        <Link to="/login" className="link__item">
+          Log In
+        </Link>
+        </li>
       </ul>
     </nav>
   );
