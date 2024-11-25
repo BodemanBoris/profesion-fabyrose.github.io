@@ -79,9 +79,13 @@ const Cursos = () => {
 
       <div className="link__divisor">
         <p>Click a continuacion para mas detalles de los cursos</p>
-        <Link to="/cursos" className="link__style">
+        <ul>
+          <li className="list__item">
+        <Link to="/cursos" className="link__item">
           QUIERO MAS INFORMACION!
         </Link>
+          </li>
+        </ul>
       </div>
 
       <div>

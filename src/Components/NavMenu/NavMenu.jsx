@@ -42,7 +42,7 @@ const NavMenu = () => {
         <li className="list_item">
 
         <Link to="/cursos" className="link__item">
-          Nuestros cursos
+          Formate
         </Link>
         </li>
 

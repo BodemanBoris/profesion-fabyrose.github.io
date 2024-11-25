@@ -26,12 +26,13 @@ const Login = () => {
       <div className="textContainer">
         <p>{formToRender === false ?"¿Aun no tienes una cuenta?" : "¿Ya tienes una cuenta?"} <small className="iniciarSesion" onClick={changeForm}>{formToRender === false ? "Crea una cuenta" : "Inicia sesion"}</small> </p>
       </div>
-      <li className="item">
-
+      <ul className="home__container">
+      <li className="list__item">
       <Link to="/" className="link__item">
         Home 🏠
       </Link>
       </li>
+      </ul>
     </main>
   )
 }

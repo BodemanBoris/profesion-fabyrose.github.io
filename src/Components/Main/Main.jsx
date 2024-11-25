@@ -13,7 +13,7 @@ const Main = () => {
       <section id="fabyrose">
         <FabyRose></FabyRose>
       </section>
-      <section id="#cursos">
+      <section id="cursos">
         <Cursos></Cursos>
       </section>
       <section id="contacto">
