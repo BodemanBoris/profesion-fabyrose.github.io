@@ -1,22 +1,25 @@
 import { useState } from "react"
+import { helperHttp } from "../../libs/useFetch.js"
 
 const initialUserInfo = {
   username: "",
   email: "",
   password: "",
   confirmPassword: ""
-}
+} 
 
 const SignInForm = () => {
   const [userSignInInfo, setUserSignInInfo] = useState(initialUserInfo)
+    let api = helperHttp()
   
   const updateUserInfo = (e) => {
     let inputName = e.target.name, inputValue = e.target.value
     setUserSignInInfo({ ...userSignInInfo, [inputName]: inputValue})
 }
 
-  const handleSubmit = (e) => {
+ const handleSubmit =  (e) => {
     e.preventDefault()
+    api.post("http://localhost:3500/api/signin").then(res=> console.log(res, "RESUELTO")).catch(err=> console.log(err,"ERROR"))
   }
 
   return (

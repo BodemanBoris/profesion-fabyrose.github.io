@@ -1,0 +1,36 @@
+.user__container{
+  display: flex;
+}
+.url__img-container {
+  width: 70px;
+
+}
+.logout__btn{
+  background: #e96a6a;
+}
+.user__img{
+  margin: 6px;
+  border-radius: 1rem;
+
+}
+.curso__info{
+  border: 1px solid gray;
+  padding: 1rem;
+  margin: 6px;
+  text-align: start;
+  display: flex; 
+  justify-content: space-between;
+}
+.curso__pendiente{
+  color: #b1b1b1
+}
+
+.curso__finalizado {
+  background: #c3f7a0;
+  color:#040404
+}
+
+.pendiente{
+  color: #b1b1b1
+
+}
