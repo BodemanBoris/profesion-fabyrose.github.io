@@ -13,10 +13,10 @@
    options.headers = options.headers ? { ...defaultHeaders, ...options.headers } : defaultHeaders;
 
     options.body = JSON.stringify(options.body)
-    console.log(options.body)
+
     if (!options.body) delete options.body
 
-    setTimeout(() => controller.abort(), 1500)
+    setTimeout(() => controller.abort(), 2000)
     
     return fetch(endpoint, options).then(res=> res.ok ? res.json() : Promise.reject({error: true, status: res.status || "00", statusText: res.statusText || "Ocurrio un error!"})).catch(err=> err)
   }
